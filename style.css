@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  background-color: rgb(240, 225, 205);
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 213, 177);
+  margin-bottom: 20px;
+}
+
+nav a{
+  margin-right: 20px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+.container{
+  display: flex;
+  width: 80%;
+  border: 1px solid black;
+  margin-left: 150px;
+  background-color: aliceblue;
+  border-radius: 17px;
+  box-shadow: 13px 20px 17px 1px rgba(0,0,0,0.83);
+}
+
+.container img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.container .perkenalan{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.perkenalan p{
+  font-size: 18px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.about{
+  width: 80%;
+  border: 1px solid black;
+  margin-left: 150px;
+  background-color: aliceblue;
+  border-radius: 17px;
+  box-shadow: 13px 20px 17px 1px rgba(0,0,0,0.83);
+}
+
+.about .pengalaman{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.about .pendidikan{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.about .data-diri{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
